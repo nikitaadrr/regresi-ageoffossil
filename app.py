@@ -7,12 +7,6 @@ from PIL import Image
 with open('model_huber.pkl', 'rb') as model_file:
     loaded_model = pickle.load(model_file)
 
-
-# Menambahkan gambar header untuk branding
-header_image = Image.open('Fossil (1).png')
-st.image(header_image, use_column_width=True)
-
-
 st.title('Fossil Age Prediction')
 st.markdown(
 """
