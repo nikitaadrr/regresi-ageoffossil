@@ -10,7 +10,9 @@ with open('model_huber.pkl', 'rb') as model_file:
 st.title('Fossil Age Prediction')
 st.markdown(
 """
-Welcome to the **Fossil Age Prediction** web app. This tool utilizes a **Huber Regression** model to predict the age of fossils based on various geological and chemical parameters. Simply input the required data, and let the model do the rest!
+Welcome to the Fossil Age Prediction App!
+
+Discover the age of ancient fossils with just a few clicks. Our advanced machine learning model analyzes key characteristics of fossils to predict their estimated age. Whether you're a student, researcher, or just curious about paleontology, this tool provides an easy and accurate way to explore the past. Input the details of your fossil sample, and let our model reveal the story hidden in its age. Ready to journey through time? Start now!
 """
 )
 
